@@ -1,0 +1,33 @@
+.homeDiv{
+    display:flex;
+    align-self: center;
+    align-content: center;
+    flex-direction: column;
+    background-image: url('../assets/images/kiss1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    max-width:30vw;
+    margin-left: 35vw;
+
+  
+  }
+
+  .homeHeader{
+      display: flex;
+      justify-content: center;
+      width:100%;
+      height:fit-content;
+      background-color: aqua;
+  }
+
+  .homeLogo{
+      justify-self: center;
+  }
+
+  .homeLogin{
+      position: absolute;
+      top: 2%;
+      right:2%;
+  }
